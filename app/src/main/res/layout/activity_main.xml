@@ -23,32 +23,23 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp" android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp" android:layout_marginBottom="8dp"
-        android:text="イベント送信" app:layout_constraintBottom_toBottomOf="parent"
+        android:text="イベント送信"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.724"/>
 
     <Button
-        android:id="@+id/open_push_list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp" android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp" android:layout_marginBottom="8dp"
-        android:text="お知らせ一覧"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_send_ev" />
-
-    <Button
         android:id="@+id/copy_endpoint_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp" android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp" android:layout_marginBottom="8dp"
-        android:text="エンドポイントIDをコピー"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/open_push_list" />
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="エンドポイントIDをコピー" app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_send_ev"/>
 
 </android.support.constraint.ConstraintLayout>

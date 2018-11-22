@@ -84,6 +84,9 @@ class MainActivity : AppCompatActivity() {
 
         // エンドポイントIDを表示
         findViewById<TextView>(R.id.end_point_id).text = "endpointId:${endpointProfile?.endpointId}"
+
+        // イベント送信設定
+        setUpForSendEvents()
     }
 
     override fun onPause() {
